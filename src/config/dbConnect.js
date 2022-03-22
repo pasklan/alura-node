@@ -1,8 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect(
-  "mongodb+srv://usuario:paltronasco@banco.bnqvz.mongodb.net/alura-node"
-);
+mongoose.connect("stringdeconexaodobancoaqui");
 
 let db = mongoose.connection;
 
